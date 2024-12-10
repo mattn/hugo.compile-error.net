@@ -10,7 +10,7 @@ background_color_class = 'bg-gray'
 author = 'mattn'
 favicon = '/images/profile.png'
 site_logo = '/images/profile.png'
-#commentoEnable = true
+commentoEnable = true
 body_classes = "avenir bg-near-white"
 description = "塩ブログ"
 subtitle = '塩ブログ'
@@ -55,8 +55,8 @@ networks = [
   "twitter"
 ]
 
-[services.disqus]
-shortname = 'mattn_jp'
+#[services.disqus]
+#shortname = 'mattn_jp'
 
 [menu]
 
