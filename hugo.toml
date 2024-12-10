@@ -19,6 +19,10 @@ subtitle = '塩ブログ'
 #cover_dimming_class = 'bg-black-50'
 #cover_dimming_class = 'bg-transparent'
 
+custom_css = [
+  "css/custom-font.css"
+]
+
 recent_posts_number = 5
 #show_reading_time = true
 

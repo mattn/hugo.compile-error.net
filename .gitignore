@@ -1,5 +1,6 @@
 .hugo_build.lock
 archetypes
+assets
 data
 public
 themes
