@@ -1,3 +1,71 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://hugo.compile-error.net/'
+languageCode = 'ja-jp'
+defaultContentLanguage = 'ja'
+title = '俺の塩'
+theme = 'ananke'
+
+[params]
+text_color = 'dark-gray'
+background_color_class = 'bg-gray'
+author = 'mattn'
+favicon = '/images/profile.png'
+site_logo = '/images/profile.png'
+#commentoEnable = true
+body_classes = "avenir bg-near-white"
+description = "塩ブログ"
+subtitle = '塩ブログ'
+#featured_image_class = 'contain bg-top'
+#featured_image_class = 'cover bg-top'
+#cover_dimming_class = 'bg-black-50'
+#cover_dimming_class = 'bg-transparent'
+
+recent_posts_number = 5
+#show_reading_time = true
+
+[params.contact]
+email = 'mattn.jp@gmail.com'
+#phone = '+1 202-555-1212'
+
+[languages.ja]
+name = "日本"
+weight = 2
+
+[languages.ja.params]
+read_more_copy = "もっと読む"
+
+[params.ananke.social.follow]
+new_window_icon = false
+networks = [
+  "bluesky",
+  "twitter"
+]
+
+[params.ananke.social.bluesky]
+username = "mattn.bsky.social"
+
+[params.ananke.social.twitter]
+username = "mattn_jp"
+
+[params.ananke.social.share]
+icons = true
+sharetext = true
+networks = [
+  "facebook",
+  "bluesky",
+  "twitter"
+]
+
+[services.disqus]
+shortname = 'mattn_jp'
+
+[menu]
+
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Contact'
+  pageRef = '/contact'
+  weight = 30
